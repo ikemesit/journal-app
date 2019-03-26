@@ -1,0 +1,65 @@
+// Helpers
+.padding-bottom-80 {
+  padding-bottom: 80px;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.block-underline {
+  &:after {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 4px;
+    margin: 10px 0;
+    background-color: #a0a0a0;
+  }
+}
+
+// component classes
+.menu-btn,
+.search-btn {
+  span {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+  }
+
+  i {
+    margin-right: 5px;
+  }
+
+  :hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+  }
+}
+
+.carousel {
+  &__btn {
+    margin-top: 15px;
+  }
+}
+
+.content-section {
+  padding: 20px 0;
+}
+
+.action-tile {
+  text-decoration: none;
+  color: #000000;
+}
+
+.circle-wrap {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #a0a0a0;
+}
