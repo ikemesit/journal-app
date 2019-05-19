@@ -22,27 +22,10 @@
   }
 }
 
-// component classes
-.menu-btn,
-.search-btn {
-  span {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-
-  }
-
-  i {
-    margin-right: 5px;
-  }
-
-  :hover {
-    cursor: pointer;
-    background-color: #eeeeee;
-  }
-}
-
 .carousel {
+  background: url('../../../assets/images/beaker-biology-chemical.jpg') no-repeat;
+  background-size: cover;
+
   &__btn {
     margin-top: 15px;
   }
@@ -57,9 +40,32 @@
   color: #000000;
 }
 
+.news-tile {
+  background-color: #a0a0a0;
+}
+
 .circle-wrap {
   width: 200px;
   height: 200px;
   border-radius: 100px;
   background-color: #a0a0a0;
+}
+
+.text-content {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+}
+
+.stat {
+  border-top: thin solid #eee;
+  padding: 10px 0;
+
+  &__number {
+    font-size: 1.5rem;
+  }
+
+  &__text {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+  }
 }
