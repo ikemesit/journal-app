@@ -1,0 +1,11 @@
+<div class="tile is-parent is-horizontal publication-card">
+  <article class="tile is-child notification is-primary"
+    [ngStyle]="backgroundStyles">
+    <p class="title is-5">{{ publicationTitle }}</p>
+    <p class="subtitle is-6">{{ publicationSubtitle }}</p>
+    <div class="tags">
+      <span class="tag is-info"
+        *ngFor="let tag of tags">{{ tag }}</span>
+    </div>
+  </article>
+</div>

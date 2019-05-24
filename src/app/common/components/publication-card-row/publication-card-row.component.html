@@ -1,0 +1,7 @@
+<div class="tile is-ancestor">
+  <jr-publication-card *ngFor="let publication of publications"
+    [publicationTitle]="publication.title"
+    [publicationSubtitle]="publication.subTitle"
+    [tags]="publication.tags"
+    [cardBackgroundImg]="publication.image"></jr-publication-card>
+</div>

@@ -1,0 +1,78 @@
+<nav class="navbar main-navbar"
+  role="navigation"
+  aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item brand-text"
+        href="#">
+        <h1 class="title is-5">
+          Nigerian Journal <br> of Pharmaceuticals & <br>
+          Applied Science Research
+        </h1>
+      </a>
+
+      <a role="button"
+        class="navbar-burger burger"
+        aria-label="menu"
+        aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item"
+          routerLink="/home">
+          Home
+        </a>
+        <a class="navbar-item"
+          routerLink="/about">
+          About the Journal
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Publications
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item"
+              routerLink="/publication">
+              Find a Publication
+            </a>
+            <a class="navbar-item">
+              Current Issues
+            </a>
+            <a class="navbar-item">
+              Archive
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item search-input">
+          <div #searchWrapper
+            class="search-input__inner-wrapper">
+            <fa-icon [icon]="['fas', 'search']"
+              class="search-icon"></fa-icon>
+            <input #search
+              class="input is-rounded is-medium search-input__active-input"
+              type="text"
+              placeholder="Search Journal">
+          </div>
+        </div>
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary is-medium is-rounded">
+              <strong>Subscribe</strong>
+            </a>
+            <a class="button is-light is-medium"
+              routerLink="/sign-in">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

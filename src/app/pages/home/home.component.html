@@ -1,60 +1,55 @@
-<jr-main-header></jr-main-header>
-<section class="hero is-primary is-medium carousel">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns">
+<section class="landing-wrapper">
+  <jr-main-header></jr-main-header>
+  <section class="hero is-primary is-medium landing">
+    <!-- <div class="hero-body"> -->
+    <div class="container is-vertically-centered">
+      <div class="columns is-vcentered">
         <div class="column is-half">
-          <h2 class="title is-2">
+          <h2 class="title is-2 landing__header">
             Empowering Knowledge
           </h2>
-          <p class="text-content">
+          <p class="landing__text">
             Nigerian Journal of Pharmaceutical & Applied Science Research is
             published quarterly as reference source to researchers in the
             Pharmaceutical, Chemical and Life Sciences as well as the Medical
             and Paramedical Sciences
           </p>
-          <a class="button is-large is-primary is-rounded is-inverted is-outlined carousel__btn">Learn More</a>
+          <a class="button is-large is-primary is-rounded landing__btn">Learn More</a>
         </div>
       </div>
     </div>
-  </div>
+    <!-- </div> -->
+  </section>
 </section>
 
 <section class="content-section">
   <div class="container">
-    <!-- <div class="columns">
-      <div class="column is-full">
-        <h4 class="title is-4">Make your mark</h4>
-      </div>
-    </div> -->
-    <div class="columns padding-top-40">
+    <div class="columns padding-top-80">
       <div class="column is-8">
         <div class="tile is-parent is-horizontal is-paddingless">
           <a class="tile padding-bottom-80 action-tile">
             <div class="media-left">
-              <img src="../../../assets/images/analytics.svg"
+              <img src="assets/images/analytics.svg"
                 alt=""
                 width="70px" />
             </div>
             <div class="media-content">
               <h4 class="title is-5">Publish with NJPASR</h4>
               <p class="text-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                iure eius porro cumque quisquam.
+                Publishing with Nijophasr: Our step by step guide and information you need.
               </p>
             </div>
           </a>
           <a class="tile padding-bottom-80 action-tile">
             <div class="media-left">
-              <img src="../../../assets/images/insurance.svg"
+              <img src="assets/images/insurance.svg"
                 alt=""
                 width="70px" />
             </div>
             <div class="media-content">
-              <h4 class="title is-5">Schedule a review</h4>
+              <h4 class="title is-5">Find articles</h4>
               <p class="text-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                iure eius porro cumque quisquam.
+                Enhance your research at every step with access to our repository of research materials.
               </p>
             </div>
           </a>
@@ -62,21 +57,20 @@
         <div class="tile is-parent is-horizontal is-paddingless">
           <a class="tile padding-bottom-80 action-tile">
             <div class="media-left">
-              <img src="../../../assets/images/search.svg"
+              <img src="assets/images/search.svg"
                 alt=""
                 width="70px" />
             </div>
             <div class="media-content">
               <h4 class="title is-5">Track your publication</h4>
               <p class="text-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                iure eius porro cumque quisquam.
+                Track and monitor your progress and be part of the publication process
               </p>
             </div>
           </a>
           <a class="tile padding-bottom-80 action-tile">
             <div class="media-left">
-              <img src="../../../assets/images/loupe.svg"
+              <img src="assets/images/loupe.svg"
                 alt=""
                 width="70px" />
             </div>
@@ -91,34 +85,31 @@
       </div>
       <div class="column is-3 is-offset-1">
         <h4 class="title is-4">Statistics</h4>
-        <div class="tile stat">
+        <div class="tile stat is-flex">
           <div class="media-left">
             <fa-icon [icon]="['far', 'file']"
-              size="4x"></fa-icon>
+              size="3x"></fa-icon>
           </div>
           <div class="media-content">
-            <p class="stat__number">300</p>
-            <p class="stat__text">Articles Published</p>
+            <p class="stat__text is-pulled-right">300 Articles Published</p>
           </div>
         </div>
-        <div class="tile stat">
+        <div class="tile stat is-flex">
           <div class="media-left">
             <fa-icon [icon]="['far', 'folder-open']"
-              size="4x"></fa-icon>
+              size="3x"></fa-icon>
           </div>
           <div class="media-content">
-            <p class="stat__number">125</p>
-            <p class="stat__text">Online Journals</p>
+            <p class="stat__text is-pulled-right">125 Online Journals</p>
           </div>
         </div>
-        <div class="tile stat">
+        <div class="tile stat is-flex">
           <div class="media-left">
             <fa-icon [icon]="['far', 'user']"
-              size="4x"></fa-icon>
+              size="3x"></fa-icon>
           </div>
           <div class="media-content">
-            <p class="stat__number">15</p>
-            <p class="stat__text">Onboard Editors</p>
+            <p class="stat__text is-pulled-right">15 Onboard Editors</p>
           </div>
         </div>
       </div>
@@ -136,92 +127,74 @@
       <div class="column is-two-thirds">
         <div class="columns">
           <div class="column is-full">
-            <h4 class="title is-4">Journal News</h4>
+            <h4 class="title is-4">Recent Publications</h4>
           </div>
         </div>
-        <div class="tile is-ancestor">
-          <div class="tile is-parent is-horizontal">
-            <article class="tile is-child notification is-primary">
-              <p class="title">Subject</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div>
-          <div class="tile is-parent is-horizontal">
-            <article class="tile is-child notification is-primary">
-              <p class="title">Subject</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div>
-          <div class="tile is-parent is-horizontal">
-            <article class="tile is-child notification is-primary">
-              <p class="title">Subject</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div>
-        </div>
-        <div class="tile is-ancestor">
-          <div class="tile is-parent is-horizontal">
-            <article class="tile is-child notification is-primary">
-              <p class="title">Subject</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div>
-          <div class="tile is-parent is-horizontal">
-            <article class="tile is-child notification is-primary">
-              <p class="title">Subject</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div>
-          <div class="tile is-parent is-horizontal">
-            <article class="tile is-child notification is-primary">
-              <p class="title">Subject</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div>
-        </div>
+        <jr-publication-card-row [rowCount]="2"></jr-publication-card-row>
+        <jr-publication-card-row [rowCount]="2"></jr-publication-card-row>
       </div>
       <div class="column">
         <div class="columns">
           <div class="column is-full">
-            <h4 class="title is-4">Recent Publications</h4>
+            <h4 class="title is-4">Journal News</h4>
           </div>
         </div>
-        <article class="media">
-          <div class="media-left">
-            <img src="../../../assets/images/placeholder1.png"
-              alt=""
-              width="70px" />
-          </div>
+        <article class="media news-preview">
           <div class="media-content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              iure eius porro cumque quisquam.
+            <a class="news-preview__title">Volume 8, No. 1 (January 2019) has been uploaded</a>
+            <p class="news-preview__excerpt">
+              We just completed the upload of all publications for the Volume 8, No.1 of the Nigerian Journal of
+              Pharmaceutical & Applied Science Research (NIJOPHASR). To have your publications featured in this journal,
+              please follow the publication guidelines.
             </p>
           </div>
         </article>
-        <article class="media">
-          <div class="media-left">
-            <img src="../../../assets/images/placeholder1.png"
-              alt=""
-              width="70px" />
-          </div>
+        <article class="media news-preview">
           <div class="media-content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              iure eius porro cumque quisquam.
+            <a class="news-preview__title">Volume 7, No. 3 (Sep 2018) has been uploaded</a>
+            <p class="news-preview__excerpt">
+              We just completed the upload of all publications for the Volume 7, No.3 of the Nigerian Journal of
+              Pharmaceutical & Applied Science Research (NIJOPHASR). To have your publications featured in this journal,
+              please follow the publication guidelines.
             </p>
           </div>
         </article>
-        <article class="media">
-          <div class="media-left">
-            <img src="../../../assets/images/placeholder1.png"
-              alt=""
-              width="70px" />
-          </div>
+        <article class="media news-preview">
           <div class="media-content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              iure eius porro cumque quisquam.
+            <a class="news-preview__title">Volume 7, No. 3 Sep 2018 Edition</a>
+            <p class="news-preview__excerpt">
+              We are still receiving and processing manuscripts for Volume 7 Number 3, September 2018 edition.
+              Researchers are encouraged to send in their manuscripts for consideration.
+            </p>
+          </div>
+        </article>
+        <article class="media news-preview">
+          <div class="media-content">
+            <a class="news-preview__title">Volume 7, No. 3 (Sep 2018) has been uploaded</a>
+            <p class="news-preview__excerpt">
+              We just completed the upload of all publications for the Volume 7, No.3 of the Nigerian Journal of
+              Pharmaceutical & Applied Science Research (NIJOPHASR). To have your publications featured in this journal,
+              please follow the publication guidelines.
+            </p>
+          </div>
+        </article>
+        <article class="media news-preview">
+          <div class="media-content">
+            <a class="news-preview__title">Volume 7, No. 3 (Sep 2018) has been uploaded</a>
+            <p class="news-preview__excerpt">
+              We just completed the upload of all publications for the Volume 7, No.3 of the Nigerian Journal of
+              Pharmaceutical & Applied Science Research (NIJOPHASR). To have your publications featured in this journal,
+              please follow the publication guidelines.
+            </p>
+          </div>
+        </article>
+        <article class="media news-preview">
+          <div class="media-content">
+            <a class="news-preview__title">Volume 7, No. 3 (Sep 2018) has been uploaded</a>
+            <p class="news-preview__excerpt">
+              We just completed the upload of all publications for the Volume 7, No.3 of the Nigerian Journal of
+              Pharmaceutical & Applied Science Research (NIJOPHASR). To have your publications featured in this journal,
+              please follow the publication guidelines.
             </p>
           </div>
         </article>
@@ -232,9 +205,9 @@
 
 <!-- <div class="container">
   <hr />
-</div> -->
+</div>
 
-<!-- <div class="section">
+<div class="section">
   <div class="container padding-bottom-80">
     <div class="columns">
       <div class="column is-full">

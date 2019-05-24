@@ -1,0 +1,58 @@
+<section class="section full-size">
+  <div class="container full-size">
+    <div class="columns is-mobile is-centered is-vcentered">
+      <div class="column is-half">
+        <form class="box login-form">
+          <h4 class="title">Sign In</h4>
+          <div class="field">
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-medium"
+                type="email"
+                placeholder="Email">
+              <span class="icon is-left">
+                <fa-icon [icon]="['fas', 'envelope']"></fa-icon>
+              </span>
+              <span class="icon is-right">
+                <i class="fas fa-check fa-sm"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-medium"
+                type="password"
+                placeholder="Password">
+              <span class="icon is-medium is-left">
+                <fa-icon [icon]="['far', 'eye-slash']"></fa-icon>
+              </span>
+              <span class="icon is-medium is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field is-grouped is-grouped-left">
+            <p class="control">
+              <a class="button is-primary is-medium">
+                Login
+              </a>
+            </p>
+            <p class="control">
+              <a class="button is-light is-medium is-pulled-right"
+                routerLink="/registration">
+                Register
+              </a>
+            </p>
+          </div>
+
+          <!-- <div class="return-link"> -->
+          <!-- <fa-icon [icon]="['far', 'arrow-alt-circle-left']"></fa-icon> -->
+          <a class="return-link"
+            routerLink="/home">Return Home</a>
+          <!-- </div> -->
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
